@@ -35,7 +35,6 @@ extension MovieApiResponse: Decodable {
     }
 }
 
-
 struct Movie {
     let id: Int
     let posterPath: String
