@@ -12,7 +12,6 @@
 		011B4C5A204DB03D00A0691C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B4C59204DB03D00A0691C /* AppDelegate.swift */; };
 		011B4C5C204DB03D00A0691C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B4C5B204DB03D00A0691C /* MainViewController.swift */; };
 		011B4C61204DB03D00A0691C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011B4C60204DB03D00A0691C /* Assets.xcassets */; };
-		011B4C64204DB03D00A0691C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011B4C62204DB03D00A0691C /* LaunchScreen.storyboard */; };
 		011B4C6F204DB03D00A0691C /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B4C6E204DB03D00A0691C /* NetworkLayerTests.swift */; };
 		011B4C7B204DB06B00A0691C /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B4C7A204DB06B00A0691C /* EndPointType.swift */; };
 		011B4C7D204DCF3B00A0691C /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B4C7C204DCF3B00A0691C /* HTTPMethod.swift */; };
@@ -23,6 +22,7 @@
 		012DE9162051C21800EE152D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE9152051C21800EE152D /* Movie.swift */; };
 		012DE91B2055400200EE152D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91A2055400200EE152D /* NetworkManager.swift */; };
 		012DE91D205541C000EE152D /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91C205541C000EE152D /* NetworkLogger.swift */; };
+		4EF3294821F9F4AA00F4BAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		011B4C59204DB03D00A0691C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		011B4C5B204DB03D00A0691C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		011B4C60204DB03D00A0691C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		011B4C63204DB03D00A0691C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011B4C65204DB03D00A0691C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011B4C6A204DB03D00A0691C /* NetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		011B4C6E204DB03D00A0691C /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		012DE9152051C21800EE152D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		012DE91A2055400200EE152D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		012DE91C205541C000EE152D /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				011B4C65204DB03D00A0691C /* Info.plist */,
-				011B4C62204DB03D00A0691C /* LaunchScreen.storyboard */,
+				4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */,
 				011B4C59204DB03D00A0691C /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -273,8 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011B4C64204DB03D00A0691C /* LaunchScreen.storyboard in Resources */,
 				011B4C61204DB03D00A0691C /* Assets.xcassets in Resources */,
+				4EF3294821F9F4AA00F4BAF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,17 +325,6 @@
 			targetProxy = 011B4C6B204DB03D00A0691C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		011B4C62204DB03D00A0691C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				011B4C63204DB03D00A0691C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		011B4C71204DB03D00A0691C /* Debug */ = {
@@ -450,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B534EWRJTS;
+				DEVELOPMENT_TEAM = 4UAQ2LZQQP;
 				INFOPLIST_FILE = "$(SRCROOT)/NetworkLayer/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.NetworkLayer;
@@ -465,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B534EWRJTS;
+				DEVELOPMENT_TEAM = 4UAQ2LZQQP;
 				INFOPLIST_FILE = "$(SRCROOT)/NetworkLayer/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.NetworkLayer;
