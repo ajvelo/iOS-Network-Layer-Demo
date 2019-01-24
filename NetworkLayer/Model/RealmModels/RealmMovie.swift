@@ -9,12 +9,12 @@
 import Foundation
 import RealmSwift
 
-struct Movie {
-    let id: Int
-    let posterPath: String
-    let backdrop: String
-    let title: String
-    let releaseDate: String
-    let rating: Double
-    let overview: String
-}
+//struct Movie {
+//    let id: Int
+//    let posterPath: String
+//    let backdrop: String
+//    let title: String
+//    let releaseDate: String
+//    let rating: Double
+//    let overview: String
+//}
