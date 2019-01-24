@@ -23,6 +23,7 @@
 		012DE91B2055400200EE152D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91A2055400200EE152D /* NetworkManager.swift */; };
 		012DE91D205541C000EE152D /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91C205541C000EE152D /* NetworkLogger.swift */; };
 		4EF3294821F9F4AA00F4BAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */; };
+		4EF3296321FA0C9D00F4BAF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3296221FA0C9D00F4BAF7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		012DE91A2055400200EE152D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		012DE91C205541C000EE152D /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4EF3296221FA0C9D00F4BAF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		011B4C79204DB05C00A0691C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				4EF3296121FA0C7F00F4BAF7 /* Constants */,
 				0118F1492050537800F62D31 /* EndPoint */,
 				012DE91720553FE400EE152D /* Manager */,
 				0118F14D2050595300F62D31 /* Service */,
@@ -188,6 +191,14 @@
 				011B4C5B204DB03D00A0691C /* MainViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4EF3296121FA0C7F00F4BAF7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4EF3296221FA0C9D00F4BAF7 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				011B4C5C204DB03D00A0691C /* MainViewController.swift in Sources */,
 				011B4C86204DCFF300A0691C /* URLParameterEncoding.swift in Sources */,
 				011B4C5A204DB03D00A0691C /* AppDelegate.swift in Sources */,
+				4EF3296321FA0C9D00F4BAF7 /* Constants.swift in Sources */,
 				012DE9162051C21800EE152D /* Movie.swift in Sources */,
 				0118F14B2050539F00F62D31 /* MovieEndPoint.swift in Sources */,
 			);
