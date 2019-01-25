@@ -16,20 +16,20 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         networkManager.getNewMovies(page: 1) { movies, error in
-
-            let realm = try! Realm()
-            try! realm.write {
-                for movie in movies! {
-                    let movieRealm = MovieRealm()
-                    movieRealm.id = movie.id
-                    movieRealm.posterPath = movie.posterPath
-                    movieRealm.title = movie.title
-                    movieRealm.releaseDate = movie.releaseDate
-                    movieRealm.rating = movie.rating
-                    movieRealm.overview = movie.overview
-                    realm.add(movieRealm, update: true)
-                }
-            }
+//            let realm = try! Realm()
+//            try! realm.write {
+//                for movie in movies! {
+//                    let movieRealm = MovieRealm()
+//                    movieRealm.id = movie.id
+//                    movieRealm.posterPath = movie.posterPath
+//                    movieRealm.title = movie.title
+//                    movieRealm.releaseDate = movie.releaseDate
+//                    movieRealm.rating = movie.rating
+//                    movieRealm.overview = movie.overview
+//                    realm.add(movieRealm, update: true)
+//                }
+//            }
+            DBOperations().saveMovies(movies: movies!)
         }
         
 //        let movies = try! Realm().objects(MovieRealm.self)
