@@ -23,7 +23,7 @@
 		012DE91B2055400200EE152D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91A2055400200EE152D /* NetworkManager.swift */; };
 		012DE91D205541C000EE152D /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91C205541C000EE152D /* NetworkLogger.swift */; };
 		4EB48F0821FA1DD500C54B5B /* RealmMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48F0721FA1DD500C54B5B /* RealmMovie.swift */; };
-		4EB48F0A21FA253900C54B5B /* ConstantsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48F0921FA253900C54B5B /* ConstantsNew.swift */; };
+		4EB48F0A21FA253900C54B5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48F0921FA253900C54B5B /* Constants.swift */; };
 		4EF3294821F9F4AA00F4BAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */; };
 		6FB81C7D93858F4A14084F28 /* Pods_NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C775C1A494AC931488EEDE /* Pods_NetworkLayer.framework */; };
 		726238F9CA3C086A7A6C7425 /* Pods_NetworkLayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E1443802709248798205E6 /* Pods_NetworkLayerTests.framework */; };
@@ -61,7 +61,7 @@
 		012DE91C205541C000EE152D /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		45E1443802709248798205E6 /* Pods_NetworkLayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkLayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB48F0721FA1DD500C54B5B /* RealmMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMovie.swift; sourceTree = "<group>"; };
-		4EB48F0921FA253900C54B5B /* ConstantsNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConstantsNew.swift; path = NetworkLayer/Model/RealmModels/ConstantsNew.swift; sourceTree = SOURCE_ROOT; };
+		4EB48F0921FA253900C54B5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = NetworkLayer/Model/RealmModels/Constants.swift; sourceTree = SOURCE_ROOT; };
 		4EF3294721F9F4AA00F4BAF7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		68156FFDB705F8A10848AE70 /* Pods-NetworkLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayer/Pods-NetworkLayer.release.xcconfig"; sourceTree = "<group>"; };
 		86E1C4B6C7BACF96801F7EC1 /* Pods-NetworkLayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerTests/Pods-NetworkLayerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 		432B7AA821FA23CD00263B25 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				4EB48F0921FA253900C54B5B /* ConstantsNew.swift */,
+				4EB48F0921FA253900C54B5B /* Constants.swift */,
 			);
 			name = Constants;
 			path = Constants/Constants;
@@ -433,7 +433,7 @@
 				011B4C84204DCFB500A0691C /* JSONParameterEncoder.swift in Sources */,
 				011B4C81204DCF8800A0691C /* ParameterEncoding.swift in Sources */,
 				011B4C7D204DCF3B00A0691C /* HTTPMethod.swift in Sources */,
-				4EB48F0A21FA253900C54B5B /* ConstantsNew.swift in Sources */,
+				4EB48F0A21FA253900C54B5B /* Constants.swift in Sources */,
 				011B4C7F204DCF5100A0691C /* HTTPTask.swift in Sources */,
 				4EB48F0821FA1DD500C54B5B /* RealmMovie.swift in Sources */,
 				012DE91D205541C000EE152D /* NetworkLogger.swift in Sources */,
